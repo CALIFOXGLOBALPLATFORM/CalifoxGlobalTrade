@@ -42,3 +42,47 @@ const register = useCallback((name: string, email: string, password: string, pla
 
   return true;
 }, [pushNotification]);
+// In AuthProvider
+useEffect(() => {
+  const interval = setInterval(() => {
+    const users = loadUsers();
+    let updated = false;
+
+    const newUsers = users.map(u => {
+      if (u.role === 'admin' || u.balance <= 0) return u;
+
+      // Simulate daily profit (0.5% - 2.5% based on plan)
+      const profitRate = u.plan.includes('Premium') ? 0.025 : 
+                         u.plan.includes('Growth') ? 0.015 : 0.008;
+      
+      const dailyProfit = Math.floor(u.balance * profitRate);
+      
+      if (dailyProfit > 0) {
+        updated = true;
+        const newBalance = u.balance + dailyProfit;
+        
+        // Notify user
+        if (user?.id === u.id) {
+          pushNotification({
+            type: "info",
+            title: "📈 Daily Profit Credited",
+            message: `+$${dailyProfit} added to your account (${u.plan} Plan)`
+          });
+        }
+
+        return { ...u, balance: newBalance };
+      }
+      return u;
+    });
+
+    if (updated) {
+      saveUsers(newUsers);
+      if (user) {
+        const currentUser = newUsers.find(u => u.id === user.id);
+        if (currentUser) setUser(currentUser);
+      }
+    }
+  }, 15000); // Every 15 seconds for demo (represents 1 day)
+
+  return () => clearInterval(interval);
+}, [user, pushNotification]);
