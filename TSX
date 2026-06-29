@@ -1,32 +1,44 @@
-import { Outlet, Link } from '@tanstack/react-router'
-import { useAuth } from '../hooks/useAuth'
+// ... existing code
 
-export const Route = createRootRoute({
-  component: RootComponent,
-})
-
-function RootComponent() {
-  const { user, logout } = useAuth()
+const register = useCallback((name: string, email: string, password: string, plan: string) => {
+  const users = loadUsers();
+  if (users.find(u => u.email.toLowerCase() === email.toLowerCase())) return false;
   
-  return (
-    <div className="min-h-screen bg-[#0a0a0f] text-white">
-      <nav className="fixed top-0 w-full z-50 bg-[#0a0a0f]/95 backdrop-blur border-b border-[#c9a84c]/20">
-        <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
-          <Link to="/" className="font-heading text-2xl text-[#c9a84c] font-bold">CALIFOX</Link>
-          
-          <div className="flex items-center gap-8">
-            {user ? (
-              <>
-                <Link to="/dashboard" className="hover:text-[#c9a84c]">Dashboard</Link>
-                <button onClick={logout} className="text-red-400 hover:text-red-500">Logout</button>
-              </>
-            ) : (
-              <Link to="/auth" className="bg-[#c9a84c] text-black px-6 py-2 rounded font-medium">Login / Register</Link>
-            )}
-          </div>
-        </div>
-      </nav>
-      <Outlet />
-    </div>
-  )
-}
+  const newUser: AuthUser = {
+    id: Math.random().toString(36).slice(2),
+    name, 
+    email, 
+    passwordHash: simpleHash(password), 
+    plan,
+    balance: 0,
+    transactions: [],
+    role: 'user',
+    joinedAt: new Date().toISOString()
+  };
+  
+  saveUsers([...users, newUser]);
+  sessionStorage.setItem(SESSION_KEY, newUser.id);
+  setUser(newUser);
+
+  // === WELCOME MESSAGE FOR NEW USER ===
+  pushNotification({ 
+    type: "info", 
+    title: "🎉 Welcome to Califox Global!", 
+    message: `Dear ${name}, your ${plan} account is now active. Your dedicated manager will contact you shortly.` 
+  });
+
+  // === NOTIFY ADMIN ===
+  const admin = users.find(u => u.role === 'admin');
+  if (admin) {
+    pushNotification({ 
+      type: "info", 
+      title: "🔔 New User Registered", 
+      message: `\( {name} ( \){email}) joined with ${plan} Plan` 
+    });
+  }
+
+  // Simulate welcome email
+  console.log(`📧 [EMAIL] Welcome to \( {name} < \){email}> - Account Created`);
+
+  return true;
+}, [pushNotification]);
