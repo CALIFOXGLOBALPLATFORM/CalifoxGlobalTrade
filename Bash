@@ -1,0 +1,31 @@
+‎/home/workdir/artifacts/
+‎├── index.html
+‎├── package.json
+‎├── tsconfig.json
+‎├── vite.config.ts
+‎├── tailwind.config.js
+‎├── src/
+‎│   ├── main.tsx
+‎│   ├── router.tsx
+‎│   ├── start.ts
+‎│   ├── routes/
+‎│   │   ├── __root.tsx
+‎│   │   ├── index.tsx
+‎│   │   ├── auth.tsx
+‎│   │   ├── auth.forgot.tsx
+‎│   │   ├── reset-password.tsx
+‎│   │   ├── _authenticated/
+‎│   │   │   ├── route.tsx
+‎│   │   │   ├── dashboard.tsx
+‎│   │   │   ├── deposits.tsx
+‎│   │   │   ├── withdrawals.tsx
+‎│   │   │   ├── transactions.tsx
+‎│   │   │   ├── profile.tsx
+‎│   │   │   ├── investments.tsx
+‎│   │   │   └── admin.plans.tsx
+‎│   │   └── plans.$slug.tsx
+‎│   ├── components/
+‎│   ├── lib/
+‎│   └── assets/
+‎├── public/
+‎└── README.md
