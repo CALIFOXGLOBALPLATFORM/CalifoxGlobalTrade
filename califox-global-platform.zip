@@ -1,0 +1,4 @@
+unzip califox-global-platform.zip -d califox-project
+cd califox-project/artifacts
+npm install
+npm run dev
