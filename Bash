@@ -29,3 +29,5 @@
 ‎│   └── assets/
 ‎├── public/
 ‎└── README.md
+cd /home/workdir
+zip -r califox-global-platform.zip artifacts/
