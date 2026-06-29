@@ -1,0 +1,32 @@
+‎import { Outlet, Link } from '@tanstack/react-router'
+‎import { useAuth } from '../hooks/useAuth'
+‎
+‎export const Route = createRootRoute({
+‎  component: RootComponent,
+‎})
+‎
+‎function RootComponent() {
+‎  const { user, logout } = useAuth()
+‎  
+‎  return (
+‎    <div className="min-h-screen bg-[#0a0a0f] text-white">
+‎      <nav className="fixed top-0 w-full z-50 bg-[#0a0a0f]/95 backdrop-blur border-b border-[#c9a84c]/20">
+‎        <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+‎          <Link to="/" className="font-heading text-2xl text-[#c9a84c] font-bold">CALIFOX</Link>
+‎          
+‎          <div className="flex items-center gap-8">
+‎            {user ? (
+‎              <>
+‎                <Link to="/dashboard" className="hover:text-[#c9a84c]">Dashboard</Link>
+‎                <button onClick={logout} className="text-red-400 hover:text-red-500">Logout</button>
+‎              </>
+‎            ) : (
+‎              <Link to="/auth" className="bg-[#c9a84c] text-black px-6 py-2 rounded font-medium">Login / Register</Link>
+‎            )}
+‎          </div>
+‎        </div>
+‎      </nav>
+‎      <Outlet />
+‎    </div>
+‎  )
+‎}
