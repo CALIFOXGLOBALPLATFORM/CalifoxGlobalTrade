@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="en"><head><script>window["__codeletBootstrap__"]=JSON.parse('{"A":"A","B":"20260805-03-59e0745","C":{"Abril Fatface":"YACgEZbkUVE,0","Alfa Slab One":"YACgEYS9sJU,0","Anton":"YACgEcYqQ-A,0","Archivo":"YAHO2-t-jNE,0","Arial":"YAGyDvJ_4Ts,0","Bebas Neue":"YACgESME5ew,0","Broken Glyph":"YADZ-exUkv0,0","Canva Sans":"YAFdJjTk5UU,0","Caveat":"YALBs2ploWQ,0","Comic Sans MS":"YAHO2VMiyZo,0","Cormorant Garamond":"YAFdJhX-538,0","Courier New":"YAGzXiGs0_8,0","DM Sans":"YAD1aU3sLnI,0","DM Serif Display":"YAD1aYG82rc,0","Forum":"YACgEcnnqB4,0","Fraunces":"YAEul-FRQw4,0","Georgia":"YAGzXkO0pEM,0","Ghost Mono":"YAHO2EIdDP0,0","Helvetica Neue":"YAFcf6CtJfI,0","Impact":"YAFcfnjI7Vk,0","Inter":"YAFdJvSyp_k,3","Iowan Old Style":"YAGNIFa8j9o,0","Jacques Francois":"YAHO2a5g66Q,0","JetBrains Mono":"YADy3sAhvXQ,0","Oleo Script":"YACgEQQ14jI,0","Playfair Display":"YAFdJhem5V8,1","Poppins":"YAE5fPSY9qM,0","Press Start 2P":"YAFyGr-8pmQ,0","Source Sans 3":"YAG4lO1Mj10,0","Space Grotesk":"YAHO2sjPCSM,0","Times New Roman":"YAGzXW3gftg,0","Times":"YAGzXW3gftg,0","Trebuchet MS":"YAFcfrglpVA,0","Verdana":"YAGzXTctYtQ,0","Work Sans":"YAGXhLOKv44,0","Yellowtail":"YACgEYG4kG4,0"}}');</script><script src="/_sdk/7949ff62d67710d5.telemetry_sdk.js" integrity="sha512-KIvXA82Di44YY/RH9/63A9MuTuavYgDFG8PfErJn7Wli4K0LAOk+coo/aPXk3+ZNL96nHh9VYD4PE+fLes+laQ=="></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ForexCorePro</title>
+  <script src="https://cdn.tailwindcss.com/3.4.17"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lucide@0.263.0/dist/umd/lucide.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Fraunces:opsz,wght@9..144,600;9..144,700&amp;display=swap" rel="stylesheet">
+  <style>
+    :root { --ink: #071522; --panel: #0c2031; --gold: #f5c451; --muted: #9db2c3; }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { margin: 0; font-family: "DM Sans", sans-serif; background: var(--ink); color: #eef5f8; }
+    .display { font-family: "Fraunces", serif; }
+    .grid-noise { background-image: linear-gradient(rgba(134,172,195,.08) 1px, transparent 1px), linear-gradient(90deg, rgba(134,172,195,.08) 1px, transparent 1px); background-size: 42px 42px; }
+    .hero-shade { background: linear-gradient(90deg, rgba(4,15,25,.96) 0%, rgba(4,15,25,.78) 48%, rgba(4,15,25,.3) 100%); }
+    .eyebrow { letter-spacing: .18em; text-transform: uppercase; font-size: .7rem; font-weight: 700; color: var(--gold); }
+    .reveal { animation: rise .7s both; }
+    @keyframes rise { from { opacity: 0; transform: translateY(18px); } to { opacity: 1; transform: translateY(0); } }
+    .faq-answer { display: grid; grid-template-rows: 0fr; transition: grid-template-rows .25s ease; }
+    .faq-answer > div { overflow: hidden; }
+    .faq-item.open .faq-answer { grid-template-rows: 1fr; }
+    .faq-item.open .faq-icon { transform: rotate(45deg); }
+    .faq-icon { transition: transform .2s ease; }
+    .focus-ring:focus-visible { outline: 3px solid #f5c451; outline-offset: 3px; }
+  </style>
+  <script src="/_sdk/0e8d3a91e1c6f495.data_sdk.js" type="text/javascript" integrity="sha512-c00oDoGjsMgluCLLEyVl3suwEkgjOGGplVFbsilUoBg4aMKNmsL3mwsc9r0dPn95qiSZyjBousQXgROkAW7p/w=="></script>
+  <script src="/_sdk/04cc6185e046f597.resizing_sdk.js" type="text/javascript" integrity="sha512-CiE/G92aQF0nxneFg1kdOvXih8sQ1Z2a2QI3+r/WvzJwQqH6+IyB3iL07OkJmpm3ABAaf07+FnqWny98f5sR6w=="></script>
+ </head>
+ <body data-template-id="__page-root" class="w-full overflow-x-hidden" style="background: rgb(7, 21, 34);">
+  <header class="sticky top-0 z-50 border-b border-white/10 bg-[#071522]/95 backdrop-blur">
+   <nav class="mx-auto flex max-w-7xl items-center justify-between px-5 py-4 lg:px-8" aria-label="Primary navigation"><a href="#top" class="focus-ring flex items-center gap-2 rounded"> <span class="grid h-8 w-8 place-items-center rounded-sm bg-[#f5c451] text-[#071522]"><i data-lucide="bar-chart-3" class="h-4 w-4"></i></span> <span data-template-id="brand-name" class="canva-text text-lg font-bold tracking-tight" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 16px;">ForexCorePro</span> </a> <button id="menu-toggle" type="button" class="focus-ring rounded p-2 text-white md:hidden" aria-expanded="false" aria-controls="mobile-menu"> <i data-lucide="menu" class="h-5 w-5"></i><span class="sr-only">Open navigation menu</span> </button>
+    <div class="hidden items-center gap-7 md:flex"><a data-template-id="nav-markets" class="canva-link focus-ring rounded text-sm text-slate-300 hover:text-[#f5c451]" href="#markets" style="color: rgb(203, 213, 225); font-weight: 400; font-style: normal; font-size: 16px;">Markets</a> <a data-template-id="nav-plans" class="canva-link focus-ring rounded text-sm text-slate-300 hover:text-[#f5c451]" href="#plans" style="color: rgb(203, 213, 225); font-weight: 400; font-style: normal; font-size: 16px;">Plans</a> <a data-template-id="nav-insights" class="canva-link focus-ring rounded text-sm text-slate-300 hover:text-[#f5c451]" href="#insights" style="color: rgb(203, 213, 225); font-weight: 400; font-style: normal; font-size: 16px;">Insights</a> <a data-template-id="nav-contact" class="canva-link focus-ring rounded text-sm text-slate-300 hover:text-[#f5c451]" href="#contact" style="color: rgb(203, 213, 225); font-weight: 400; font-style: normal; font-size: 16px;">Contact</a> <a data-template-id="nav-cta" class="canva-button focus-ring rounded-sm px-4 py-2 text-sm font-bold" href="#plans" style="background: rgb(245, 196, 81); color: rgb(7, 21, 34); font-weight: 700; font-style: normal; font-size: 16px;">Explore plans</a>
+    </div>
+   </nav>
+   <div id="mobile-menu" class="hidden border-t border-white/10 bg-[#0c2031] px-5 py-4 md:hidden">
+    <div class="flex flex-col gap-4"><a data-template-id="mobile-markets" class="canva-link focus-ring rounded text-sm" href="#markets" style="color: rgb(255, 255, 255); font-weight: 400; font-style: normal; font-size: 16px;">Markets</a> <a data-template-id="mobile-plans" class="canva-link focus-ring rounded text-sm" href="#plans" style="color: rgb(255, 255, 255); font-weight: 400; font-style: normal; font-size: 16px;">Plans</a> <a data-template-id="mobile-contact" class="canva-link focus-ring rounded text-sm" href="#contact" style="color: rgb(255, 255, 255); font-weight: 400; font-style: normal; font-size: 16px;">Contact</a>
+    </div>
+   </div>
+  </header>
+  <main id="top">
+   <section data-template-id="hero-section" class="canva-section relative isolate min-h-[650px] overflow-hidden" style="background: rgb(7, 21, 34);"><img data-template-id="hero-image" loading="lazy" class="canva-image absolute inset-0 -z-20 h-full w-full object-cover" src="https://images.pexels.com/photos/18824806/pexels-photo-18824806.jpeg" alt="Stunning aerial view of New York City skyline at night, capturing illuminated skyscrapers.">
+    <div class="hero-shade absolute inset-0 -z-10"></div>
+    <div class="grid-noise absolute inset-0 -z-10 opacity-50"></div>
+    <div class="mx-auto flex min-h-[650px] max-w-7xl items-center px-5 py-20 lg:px-8">
+     <div class="max-w-3xl">
+      <div data-template-id="hero-kicker" class="canva-tag reveal mb-6 inline-flex items-center gap-2 border border-[#f5c451]/40 bg-[#071522]/60 px-3 py-2 text-xs font-bold tracking-widest" style="background: rgba(7, 21, 34, 0.6); color: rgb(245, 196, 81); font-weight: 700; font-style: normal; font-size: 16px;">Independent market intelligence</div>
+      <h1 data-template-id="hero-title" class="canva-text display reveal max-w-3xl font-semibold leading-[1.04]" style="animation-delay: 0.1s; color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 32px;">Trade the signal. Ignore the noise.</h1>
+      <p data-template-id="hero-copy" class="canva-text reveal mt-6 max-w-xl text-lg leading-relaxed text-slate-200" style="animation-delay: 0.2s; color: rgb(226, 232, 240); font-weight: 400; font-style: normal; font-size: 18px; line-height: 1.5;">Clarity-led forex research, disciplined strategies, and a market framework built for serious decision-makers.</p>
+      <div class="reveal mt-9 flex flex-wrap gap-3" style="animation-delay:.3s"><a data-template-id="hero-primary-cta" class="canva-button focus-ring rounded-sm px-6 py-3 font-bold" href="#plans" style="background: rgb(245, 196, 81); color: rgb(7, 21, 34); font-weight: 700; font-style: normal; font-size: 16px;">Choose your edge</a> <a data-template-id="hero-secondary-cta" class="canva-button focus-ring rounded-sm border border-white/35 bg-white/5 px-6 py-3 font-bold backdrop-blur hover:bg-white/10" href="#markets" style="background: rgba(255, 255, 255, 0.05); color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 16px;">View market pulse</a>
+      </div>
+      <div class="reveal mt-12 grid max-w-2xl grid-cols-3 divide-x divide-white/20 border-y border-white/20 py-5" style="animation-delay:.4s">
+       <div class="pr-4">
+        <p data-template-id="stat-one-value" class="canva-text text-2xl font-bold" style="color: rgb(245, 196, 81); font-weight: 700; font-style: normal; font-size: 16px;">24/5</p>
+        <p data-template-id="stat-one-label" class="canva-text mt-1 text-xs text-slate-300" style="color: rgb(203, 213, 225); font-weight: 400; font-style: normal; font-size: 16px;">Market coverage</p>
+       </div>
+       <div class="px-4">
+        <p data-template-id="stat-two-value" class="canva-text text-2xl font-bold" style="color: rgb(245, 196, 81); font-weight: 700; font-style: normal; font-size: 16px;">4.8/5</p>
+        <p data-template-id="stat-two-label" class="canva-text mt-1 text-xs text-slate-300" style="color: rgb(203, 213, 225); font-weight: 400; font-style: normal; font-size: 16px;">Member rating</p>
+       </div>
+       <div class="pl-4">
+        <p data-template-id="stat-three-value" class="canva-text text-2xl font-bold" style="color: rgb(245, 196, 81); font-weight: 700; font-style: normal; font-size: 16px;">12k+</p>
+        <p data-template-id="stat-three-label" class="canva-text mt-1 text-xs text-slate-300" style="color: rgb(203, 213, 225); font-weight: 400; font-style: normal; font-size: 16px;">Active readers</p>
+       </div>
+      </div>
+     </div>
+    </div>
+   </section>
+   <section id="markets" class="bg-[#091b2a] px-5 py-20 lg:px-8">
+    <div class="mx-auto max-w-7xl">
+     <div class="flex flex-wrap items-end justify-between gap-5">
+      <div>
+       <p data-template-id="markets-kicker" class="canva-text eyebrow" style="color: rgb(245, 196, 81); font-weight: 700; font-style: normal; font-size: 16px;">Market pulse</p>
+       <h2 data-template-id="markets-title" class="canva-text display mt-3 font-semibold" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 24px;">Your session, at a glance</h2>
+      </div>
+      <p data-template-id="market-status" class="canva-tag flex items-center gap-2 text-sm" style="color: rgb(134, 239, 172); font-weight: 600; font-style: normal; font-size: 16px;">Markets monitored</p>
+     </div>
+     <div class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+      <article data-template-id="pair-one" class="canva-card rounded-sm border border-white/10 p-5" style="background: rgb(12, 32, 49);">
+       <p data-template-id="pair-one-name" class="canva-text text-sm font-bold" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 16px;">EUR / USD</p>
+       <div class="mt-5 flex items-end justify-between">
+        <p data-template-id="pair-one-price" class="canva-text text-xl font-semibold" style="color: rgb(255, 255, 255); font-weight: 600; font-style: normal; font-size: 16px;">1.0842</p>
+        <p data-template-id="pair-one-change" class="canva-text text-sm font-bold" style="color: rgb(110, 231, 183); font-weight: 700; font-style: normal; font-size: 16px;">+0.18%</p>
+       </div>
+      </article>
+      <article data-template-id="pair-two" class="canva-card rounded-sm border border-white/10 p-5" style="background: rgb(12, 32, 49);">
+       <p data-template-id="pair-two-name" class="canva-text text-sm font-bold" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 16px;">GBP / USD</p>
+       <div class="mt-5 flex items-end justify-between">
+        <p data-template-id="pair-two-price" class="canva-text text-xl font-semibold" style="color: rgb(255, 255, 255); font-weight: 600; font-style: normal; font-size: 16px;">1.2719</p>
+        <p data-template-id="pair-two-change" class="canva-text text-sm font-bold" style="color: rgb(110, 231, 183); font-weight: 700; font-style: normal; font-size: 16px;">+0.12%</p>
+       </div>
+      </article>
+      <article data-template-id="pair-three" class="canva-card rounded-sm border border-white/10 p-5" style="background: rgb(12, 32, 49);">
+       <p data-template-id="pair-three-name" class="canva-text text-sm font-bold" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 16px;">USD / JPY</p>
+       <div class="mt-5 flex items-end justify-between">
+        <p data-template-id="pair-three-price" class="canva-text text-xl font-semibold" style="color: rgb(255, 255, 255); font-weight: 600; font-style: normal; font-size: 16px;">154.38</p>
+        <p data-template-id="pair-three-change" class="canva-text text-sm font-bold" style="color: rgb(253, 164, 175); font-weight: 700; font-style: normal; font-size: 16px;">−0.09%</p>
+       </div>
+      </article>
+      <article data-template-id="pair-four" class="canva-card rounded-sm border border-white/10 p-5" style="background: rgb(12, 32, 49);">
+       <p data-template-id="pair-four-name" class="canva-text text-sm font-bold" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 16px;">XAU / USD</p>
+       <div class="mt-5 flex items-end justify-between">
+        <p data-template-id="pair-four-price" class="canva-text text-xl font-semibold" style="color: rgb(255, 255, 255); font-weight: 600; font-style: normal; font-size: 16px;">2,368.40</p>
+        <p data-template-id="pair-four-change" class="canva-text text-sm font-bold" style="color: rgb(110, 231, 183); font-weight: 700; font-style: normal; font-size: 16px;">+0.31%</p>
+       </div>
+      </article>
+     </div>
+    </div>
+   </section>
+   <section id="plans" class="grid-noise px-5 py-20 lg:px-8">
+    <div class="mx-auto max-w-7xl">
+     <div class="max-w-2xl">
+      <p data-template-id="plans-kicker" class="canva-text eyebrow" style="color: rgb(245, 196, 81); font-weight: 700; font-style: normal; font-size: 16px;">Membership</p>
+      <h2 data-template-id="plans-title" class="canva-text display mt-3 font-semibold" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 24px;">A plan for your pace</h2>
+      <p data-template-id="plans-copy" class="canva-text mt-4 leading-relaxed text-slate-300" style="color: rgb(203, 213, 225); font-weight: 400; font-style: normal; font-size: 16px;">Start with the tools that match your experience, then deepen your analysis when you are ready.</p>
+     </div>
+     <div class="mt-10 grid gap-5 lg:grid-cols-3">
+      <article data-template-id="plan-starter" class="canva-card flex flex-col rounded-sm border border-white/10 p-7" style="background: rgb(12, 32, 49);">
+       <p data-template-id="starter-label" class="canva-tag eyebrow" style="color: rgb(245, 196, 81); font-weight: 700; font-style: normal; font-size: 16px;">Foundation</p>
+       <h3 data-template-id="starter-title" class="canva-text mt-4 font-bold" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 19px;">Core Briefing</h3>
+       <p data-template-id="starter-price" class="canva-text mt-5 text-3xl font-bold" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 16px;">$19 / month</p>
+       <p data-template-id="starter-detail" class="canva-text mt-2 text-sm text-slate-400" style="color: rgb(148, 163, 184); font-weight: 400; font-style: normal; font-size: 16px;">For traders building a disciplined routine.</p>
+       <p data-template-id="starter-feature-one" class="canva-text mt-7 border-t border-white/10 pt-5 text-sm" style="color: rgb(226, 232, 240); font-weight: 400; font-style: normal; font-size: 16px;">Daily market brief</p>
+       <p data-template-id="starter-feature-two" class="canva-text mt-3 text-sm" style="color: rgb(226, 232, 240); font-weight: 400; font-style: normal; font-size: 16px;">Weekly trade journal prompts</p><a data-template-id="starter-cta" class="canva-button focus-ring mt-8 rounded-sm border border-white/25 px-4 py-3 text-center text-sm font-bold" href="#contact" style="background: transparent; color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 16px;">Start with Core</a>
+      </article>
+      <article data-template-id="plan-pro" class="canva-card relative flex flex-col rounded-sm border border-[#f5c451] p-7 shadow-[0_0_40px_rgba(245,196,81,.1)]" style="background: rgb(16, 43, 61);">
+       <span data-template-id="pro-badge" class="canva-tag absolute right-5 top-5 bg-[#f5c451] px-2 py-1 text-xs font-bold" style="background: rgb(245, 196, 81); color: rgb(7, 21, 34); font-weight: 700; font-style: normal; font-size: 16px;">Most selected</span>
+       <p data-template-id="pro-label" class="canva-tag eyebrow" style="color: rgb(245, 196, 81); font-weight: 700; font-style: normal; font-size: 16px;">Professional</p>
+       <h3 data-template-id="pro-title" class="canva-text mt-4 font-bold" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 19px;">Signal Desk</h3>
+       <p data-template-id="pro-price" class="canva-text mt-5 text-3xl font-bold" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 16px;">$49 / month</p>
+       <p data-template-id="pro-detail" class="canva-text mt-2 text-sm text-slate-400" style="color: rgb(148, 163, 184); font-weight: 400; font-style: normal; font-size: 16px;">For traders who value context and timing.</p>
+       <p data-template-id="pro-feature-one" class="canva-text mt-7 border-t border-white/10 pt-5 text-sm" style="color: rgb(226, 232, 240); font-weight: 400; font-style: normal; font-size: 16px;">Everything in Core</p>
+       <p data-template-id="pro-feature-two" class="canva-text mt-3 text-sm" style="color: rgb(226, 232, 240); font-weight: 400; font-style: normal; font-size: 16px;">Live session outlooks</p><a data-template-id="pro-cta" class="canva-button focus-ring mt-8 rounded-sm px-4 py-3 text-center text-sm font-bold" href="#contact" style="background: rgb(245, 196, 81); color: rgb(7, 21, 34); font-weight: 700; font-style: normal; font-size: 16px;">Access Signal Desk</a>
+      </article>
+      <article data-template-id="plan-elite" class="canva-card flex flex-col rounded-sm border border-white/10 p-7" style="background: rgb(12, 32, 49);">
+       <p data-template-id="elite-label" class="canva-tag eyebrow" style="color: rgb(245, 196, 81); font-weight: 700; font-style: normal; font-size: 16px;">Private</p>
+       <h3 data-template-id="elite-title" class="canva-text mt-4 font-bold" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 19px;">Strategy Room</h3>
+       <p data-template-id="elite-price" class="canva-text mt-5 text-3xl font-bold" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 16px;">$99 / month</p>
+       <p data-template-id="elite-detail" class="canva-text mt-2 text-sm text-slate-400" style="color: rgb(148, 163, 184); font-weight: 400; font-style: normal; font-size: 16px;">For serious traders seeking closer review.</p>
+       <p data-template-id="elite-feature-one" class="canva-text mt-7 border-t border-white/10 pt-5 text-sm" style="color: rgb(226, 232, 240); font-weight: 400; font-style: normal; font-size: 16px;">Everything in Signal Desk</p>
+       <p data-template-id="elite-feature-two" class="canva-text mt-3 text-sm" style="color: rgb(226, 232, 240); font-weight: 400; font-style: normal; font-size: 16px;">Monthly strategy review</p><a data-template-id="elite-cta" class="canva-button focus-ring mt-8 rounded-sm border border-white/25 px-4 py-3 text-center text-sm font-bold" href="#contact" style="background: transparent; color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 16px;">Enquire now</a>
+      </article>
+     </div>
+    </div>
+   </section>
+   <section id="insights" class="bg-[#eaf0ef] px-5 py-20 text-[#102432] lg:px-8">
+    <div class="mx-auto grid max-w-7xl gap-12 lg:grid-cols-2 lg:items-center">
+     <div class="relative">
+      <div class="absolute -left-3 -top-3 h-full w-full border border-[#c69d3b]"></div><img data-template-id="about-image" loading="lazy" class="canva-image relative h-[420px] w-full object-cover" src="https://images.pexels.com/photos/7567595/pexels-photo-7567595.jpeg" alt="A businessman examines stock market data displayed on a monitor, holding a tablet.">
+     </div>
+     <div>
+      <p data-template-id="about-kicker" class="canva-text eyebrow" style="color: rgb(162, 118, 23); font-weight: 700; font-style: normal; font-size: 16px;">Built for composure</p>
+      <h2 data-template-id="about-title" class="canva-text display mt-3 font-semibold" style="color: rgb(16, 36, 50); font-weight: 700; font-style: normal; font-size: 24px;">Better process. Better decisions.</h2>
+      <p data-template-id="about-copy" class="canva-text mt-5 leading-relaxed text-slate-600" style="color: rgb(71, 85, 105); font-weight: 400; font-style: normal; font-size: 16px;">ForexCorePro turns complex market activity into a focused daily practice—so your decisions are guided by evidence, not urgency.</p>
+      <div class="mt-8 space-y-5">
+       <div>
+        <h3 data-template-id="about-point-one-title" class="canva-text font-bold" style="color: rgb(16, 36, 50); font-weight: 700; font-style: normal; font-size: 19px;">Context before conviction</h3>
+        <p data-template-id="about-point-one-copy" class="canva-text mt-1 text-sm text-slate-600" style="color: rgb(71, 85, 105); font-weight: 400; font-style: normal; font-size: 16px;">Every idea starts with macro, structure, and liquidity—not a headline.</p>
+       </div>
+       <div>
+        <h3 data-template-id="about-point-two-title" class="canva-text font-bold" style="color: rgb(16, 36, 50); font-weight: 700; font-style: normal; font-size: 19px;">A repeatable framework</h3>
+        <p data-template-id="about-point-two-copy" class="canva-text mt-1 text-sm text-slate-600" style="color: rgb(71, 85, 105); font-weight: 400; font-style: normal; font-size: 16px;">Build a process you can review, refine, and use in every session.</p>
+       </div>
+       <div>
+        <h3 data-template-id="about-point-three-title" class="canva-text font-bold" style="color: rgb(16, 36, 50); font-weight: 700; font-style: normal; font-size: 19px;">Risk stays visible</h3>
+        <p data-template-id="about-point-three-copy" class="canva-text mt-1 text-sm text-slate-600" style="color: rgb(71, 85, 105); font-weight: 400; font-style: normal; font-size: 16px;">Clear planning tools help you make room for uncertainty.</p>
+       </div>
+      </div>
+     </div>
+    </div>
+   </section>
+   <section class="px-5 py-20 lg:px-8">
+    <div class="mx-auto max-w-7xl">
+     <p data-template-id="testimonials-kicker" class="canva-text eyebrow" style="color: rgb(245, 196, 81); font-weight: 700; font-style: normal; font-size: 16px;">Member notes</p>
+     <h2 data-template-id="testimonials-title" class="canva-text display mt-3 font-semibold" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 24px;">Trusted by traders who value process</h2>
+     <div class="mt-9 grid gap-5 lg:grid-cols-3">
+      <figure data-template-id="testimonial-one" class="canva-card rounded-sm border border-white/10 p-6" style="background: rgb(12, 32, 49);">
+       <blockquote data-template-id="testimonial-one-quote" class="canva-text leading-relaxed text-slate-200" style="color: rgb(226, 232, 240); font-weight: 400; font-style: normal; font-size: 16px;">“The daily briefing has become the calmest part of my trading day. It helps me see what matters.”</blockquote>
+       <figcaption class="mt-6 flex items-center gap-3">
+        <img data-template-id="testimonial-one-image" loading="lazy" class="canva-image h-11 w-11 rounded-full object-cover" src="https://images.pexels.com/photos/33048698/pexels-photo-33048698.jpeg" alt="Portrait of a confident businessman in a blue suit with a light background, showcasing professionalism and style.">
+        <div>
+         <p data-template-id="testimonial-one-name" class="canva-text text-sm font-bold" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 16px;">Tunde A.</p>
+         <p data-template-id="testimonial-one-role" class="canva-text text-xs text-slate-400" style="color: rgb(148, 163, 184); font-weight: 400; font-style: normal; font-size: 16px;">Swing trader</p>
+        </div>
+       </figcaption>
+      </figure>
+      <figure data-template-id="testimonial-two" class="canva-card rounded-sm border border-white/10 p-6" style="background: rgb(12, 32, 49);">
+       <blockquote data-template-id="testimonial-two-quote" class="canva-text leading-relaxed text-slate-200" style="color: rgb(226, 232, 240); font-weight: 400; font-style: normal; font-size: 16px;">“It is not about more signals. It is about having a structure that makes every signal easier to judge.”</blockquote>
+       <figcaption class="mt-6 flex items-center gap-3">
+        <img data-template-id="testimonial-two-image" loading="lazy" class="canva-image h-11 w-11 rounded-full object-cover" src="https://images.pexels.com/photos/11655430/pexels-photo-11655430.jpeg" alt="Portrait of a stylish businesswoman in a red and black formal attire, smiling confidently.">
+        <div>
+         <p data-template-id="testimonial-two-name" class="canva-text text-sm font-bold" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 16px;">Amara E.</p>
+         <p data-template-id="testimonial-two-role" class="canva-text text-xs text-slate-400" style="color: rgb(148, 163, 184); font-weight: 400; font-style: normal; font-size: 16px;">Independent analyst</p>
+        </div>
+       </figcaption>
+      </figure>
+      <figure data-template-id="testimonial-three" class="canva-card rounded-sm border border-white/10 p-6" style="background: rgb(12, 32, 49);">
+       <blockquote data-template-id="testimonial-three-quote" class="canva-text leading-relaxed text-slate-200" style="color: rgb(226, 232, 240); font-weight: 400; font-style: normal; font-size: 16px;">“The strategy reviews are direct, practical, and refreshingly free from hype.”</blockquote>
+       <figcaption class="mt-6 flex items-center gap-3">
+        <img data-template-id="testimonial-three-image" loading="lazy" class="canva-image h-11 w-11 rounded-full object-cover" src="https://images.pexels.com/photos/34299170/pexels-photo-34299170.jpeg" alt="Confident man in grey suit and blue shirt poses for a professional portrait.">
+        <div>
+         <p data-template-id="testimonial-three-name" class="canva-text text-sm font-bold" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 16px;">David K.</p>
+         <p data-template-id="testimonial-three-role" class="canva-text text-xs text-slate-400" style="color: rgb(148, 163, 184); font-weight: 400; font-style: normal; font-size: 16px;">Portfolio manager</p>
+        </div>
+       </figcaption>
+      </figure>
+     </div>
+    </div>
+   </section>
+   <section class="bg-[#0c2031] px-5 py-20 lg:px-8">
+    <div class="mx-auto max-w-3xl">
+     <p data-template-id="faq-kicker" class="canva-text text-center eyebrow" style="color: rgb(245, 196, 81); font-weight: 700; font-style: normal; font-size: 16px;">Clear answers</p>
+     <h2 data-template-id="faq-title" class="canva-text display mt-3 text-center font-semibold" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 24px;">Frequently asked questions</h2>
+     <div class="mt-9 divide-y divide-white/10 border-y border-white/10">
+      <div class="faq-item py-1">
+       <button data-template-id="faq-one-question" class="canva-button focus-ring flex w-full items-center justify-between py-5 text-left font-bold" aria-expanded="false" style="background: transparent; color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 16px;">Is ForexCorePro a broker?</button>
+       <div class="faq-answer">
+        <div>
+         <p data-template-id="faq-one-answer" class="canva-text pb-5 leading-relaxed text-slate-300" style="color: rgb(203, 213, 225); font-weight: 400; font-style: normal; font-size: 16px;">No. ForexCorePro provides market education and analysis. We do not execute trades or hold client funds.</p>
+        </div>
+       </div>
+      </div>
+      <div class="faq-item py-1">
+       <button data-template-id="faq-two-question" class="canva-button focus-ring flex w-full items-center justify-between py-5 text-left font-bold" aria-expanded="false" style="background: transparent; color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 16px;">Can I change my membership plan?</button>
+       <div class="faq-answer">
+        <div>
+         <p data-template-id="faq-two-answer" class="canva-text pb-5 leading-relaxed text-slate-300" style="color: rgb(203, 213, 225); font-weight: 400; font-style: normal; font-size: 16px;">Yes. Memberships are designed to move with your needs. Contact the team to discuss the best option for your stage.</p>
+        </div>
+       </div>
+      </div>
+      <div class="faq-item py-1">
+       <button data-template-id="faq-three-question" class="canva-button focus-ring flex w-full items-center justify-between py-5 text-left font-bold" aria-expanded="false" style="background: transparent; color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 16px;">Will this guarantee trading profits?</button>
+       <div class="faq-answer">
+        <div>
+         <p data-template-id="faq-three-answer" class="canva-text pb-5 leading-relaxed text-slate-300" style="color: rgb(203, 213, 225); font-weight: 400; font-style: normal; font-size: 16px;">No. Markets involve risk. Our work is built to improve process and understanding, not to promise outcomes.</p>
+        </div>
+       </div>
+      </div>
+      <div class="faq-item py-1">
+       <button data-template-id="faq-four-question" class="canva-button focus-ring flex w-full items-center justify-between py-5 text-left font-bold" aria-expanded="false" style="background: transparent; color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 16px;">Who is this for?</button>
+       <div class="faq-answer">
+        <div>
+         <p data-template-id="faq-four-answer" class="canva-text pb-5 leading-relaxed text-slate-300" style="color: rgb(203, 213, 225); font-weight: 400; font-style: normal; font-size: 16px;">It is for self-directed traders who want a more considered, evidence-led approach to currency markets.</p>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </section>
+   <section id="contact" data-template-id="contact-section" class="canva-section px-5 py-20 lg:px-8" style="background: rgb(7, 21, 34);">
+    <div class="mx-auto flex max-w-7xl flex-col justify-between gap-8 border border-[#f5c451]/40 p-8 md:flex-row md:items-center lg:p-12">
+     <div>
+      <p data-template-id="contact-kicker" class="canva-text eyebrow" style="color: rgb(245, 196, 81); font-weight: 700; font-style: normal; font-size: 16px;">Start a conversation</p>
+      <h2 data-template-id="contact-title" class="canva-text display mt-3 font-semibold" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 24px;">Ready to trade with more clarity?</h2>
+      <p data-template-id="contact-copy" class="canva-text mt-4 max-w-xl text-slate-300" style="color: rgb(203, 213, 225); font-weight: 400; font-style: normal; font-size: 16px;">Talk with our team about the membership that best supports your trading process.</p>
+      <p data-template-id="contact-hours" class="canva-text mt-4 text-sm text-slate-400" style="color: rgb(148, 163, 184); font-weight: 400; font-style: normal; font-size: 16px;">Monday–Friday · 09:00–17:00 WAT</p>
+     </div><a data-template-id="contact-email" class="canva-button focus-ring inline-flex shrink-0 items-center justify-center gap-2 rounded-sm px-6 py-4 font-bold" href="mailto:hello@forexcorepro.com" style="background: rgb(245, 196, 81); color: rgb(7, 21, 34); font-weight: 700; font-style: normal; font-size: 16px;">hello@forexcorepro.com</a>
+    </div>
+   </section>
+  </main>
+  <footer class="border-t border-white/10 px-5 py-8 lg:px-8">
+   <div class="mx-auto flex max-w-7xl flex-col gap-4 text-xs text-slate-500 md:flex-row md:justify-between">
+    <p data-template-id="footer-brand" class="canva-text" style="color: rgb(148, 163, 184); font-weight: 400; font-style: normal; font-size: 16px;">© 2026 ForexCorePro. Independent market intelligence.</p>
+    <p data-template-id="footer-risk" class="canva-text max-w-3xl md:text-right" style="color: rgb(148, 163, 184); font-weight: 400; font-style: normal; font-size: 16px;">Risk disclosure: Trading foreign exchange carries substantial risk and may not be suitable for all investors. Educational content is not investment advice.</p>
+   </div>
+  </footer>
+  <script src="/_sdk/b67df6528afa6d57.editing_sdk.js" integrity="sha512-ObK/O8PVNdvePOE833JpZI0oKCuD4dnU+D+5PMwY4U3o0z4/Q4l01EB77zMvgnmBiBHpDMCJTfVYFVrzp7r1lw=="></script>
+  <script>
+    document.getElementById('menu-toggle').addEventListener('click', function () {
+      const menu = document.getElementById('mobile-menu');
+      const open = menu.classList.toggle('hidden') === false;
+      this.setAttribute('aria-expanded', String(open));
+    });
+    document.querySelectorAll('.faq-item button').forEach(button => {
+      button.addEventListener('click', () => {
+        const item = button.closest('.faq-item');
+        const open = item.classList.toggle('open');
+        button.setAttribute('aria-expanded', String(open));
+      });
+    });
+    document.querySelectorAll('#mobile-menu a').forEach(link => link.addEventListener('click', () => {
+      document.getElementById('mobile-menu').classList.add('hidden');
+      document.getElementById('menu-toggle').setAttribute('aria-expanded', 'false');
+    }));
+    lucide.createIcons();
+  </script>
+ 
+</body></html>
