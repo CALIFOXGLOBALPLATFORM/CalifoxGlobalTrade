@@ -1,4 +1,4 @@
-#‎Califox Global Trade LTD
+#‎Forex Core Pro
 ‎│
 ‎├── Frontend (React + TypeScript + Tailwind CSS)
 ‎│   ├── Landing Page
